@@ -1,0 +1,173 @@
+{
+  "@@locale": "en",
+  "appName": "Menu Master",
+  "@appName": {
+    "type": "text",
+    "description": "Application Name"
+  },
+  "common_cancel": "Cancel",
+  "@common_cancel": {
+    "type": "text"
+  },
+  "common_confirm": "Confirm",
+  "@common_confirm": {
+    "type": "text"
+  },
+  "common_next": "Next",
+  "@common_next": {
+    "type": "text"
+  },
+  "common_confirm_message": "Are you sure?",
+  "@common_confirm_message": {
+    "type": "text"
+  },
+  "common_detail": "Detail",
+  "@common_detail": {
+    "type": "text"
+  },
+  "common_edit": "Edit",
+  "@common_edit": {
+    "type": "text"
+  },
+  "common_delete": "Delete",
+  "@common_delete": {
+    "type": "text"
+  },
+  "common_error": "Something went wrong...",
+  "@common_error": {
+    "type": "text"
+  },
+  "common_fetchError": "Unfortunately no data was found for your request...",
+  "@common_fetchError": {
+    "type": "text"
+  },
+  "common_field_date": "Date",
+  "@common_field_date": {
+    "type": "text"
+  },
+  "common_field_mandatory": "This field is mandatory.",
+  "@common_field_mandatory": {
+    "type": "text"
+  },
+  "common_field_empty": "Please enter a value",
+  "@common_field_empty": {
+    "type": "text"
+  },
+  "common_field_time": "Time",
+  "@common_field_time": {
+    "type": "text"
+  },
+  "common_form_validation": "Some fields are empty or invalid.",
+  "@common_form_validation": {
+    "type": "text"
+  },
+  "common_reset": "Reset",
+  "@common_reset": {
+    "type": "text"
+  },
+  "common_refresh": "Refresh",
+  "@common_refresh": {
+    "type": "text"
+  },
+  "common_save": "Save",
+  "@common_save": {
+    "type": "text"
+  },
+  "common_search": "Search",
+  "@common_search": {
+    "type": "text"
+  },
+  "common_search_term": "Enter a search term",
+  "@common_search_term": {
+    "type": "text"
+  },
+  "common_select": "Select",
+  "@common_select": {
+    "type": "text"
+  },
+  "common_submit": "Submit",
+  "@common_submit": {
+    "type": "text"
+  },
+  "common_was_success": "was successful",
+  "@common_was_success": {
+    "type": "text"
+  },
+  "common_upload": "Upload",
+  "@common_upload": {
+    "type": "text"
+  },
+  "common_upload_progress": "is uploading",
+  "@common_upload_progress": {
+    "type": "text"
+  },
+  "common_validate": "Please enter a valid ID format",
+  "@common_validate": {
+    "type": "text"
+  },
+  "common_menu": "Show / Close menu",
+  "@common_menu": {
+    "type": "text"
+  },
+  "common_go_back": "Return to the previous screen",
+  "@common_go_back": {
+    "type": "text"
+  },
+  "common_unknown_user": "Unknown User",
+  "@story_detail_add_comment": {
+    "type": "text"
+  },
+  "common_success": "Success",
+  "@common_success": {
+    "type": "text"
+  },
+  "common_got_it": "GOT IT",
+  "@common_got_it": {
+    "type": "text"
+  },
+  "common_try_again": "TRY AGAIN",
+  "@common_try_again": {
+    "type": "text"
+  },
+  "common_no_internet": "No Internet",
+  "@common_no_internet": {
+    "type": "text"
+  },
+  "common_no_internet_description": "Just like a reliable ingredient, a stable internet connection is essential. Please check your internet connection and try again",
+  "@common_no_internet_description": {
+    "type": "text"
+  },
+  "home_screen_title": "Home",
+  "@home_screen_title": {
+    "type": "text"
+  },
+  "info_appNames": "Application name",
+  "@info_appNames": {
+    "type": "text"
+  },
+  "info_appVersion": "App version",
+  "@info_appVersion": {
+    "type": "text"
+  },
+  "info_buildNumber": "Build number",
+  "@info_buildNumber": {
+    "type": "text"
+  },
+  "info_buildSignature": "Build signature",
+  "@info_buildSignature": {
+    "type": "text"
+  },
+  "info_infoName": "About...",
+  "@info_infoName": {
+    "type": "text"
+  },
+  "info_notSet": "not set",
+  "@info_notSet": {
+    "type": "text"
+  },
+  "info_packageName": "Package name",
+  "@info_packageName": {
+    "type": "text"
+  }
+}
+

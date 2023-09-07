@@ -1,0 +1,200 @@
+{
+  "@@locale": "de",
+  "appName": "Menu Master",
+  "@appName": {
+    "type": "text",
+    "description": "Application Name"
+  },
+  "common_cancel": "Abbrechen",
+  "@common_cancel": {
+    "type": "text"
+  },
+  "common_confirm": "Bestätigen",
+  "@common_confirm": {
+    "type": "text"
+  },
+  "common_next": "Next",
+  "@common_next": {
+    "type": "text"
+  },
+  "common_confirm_message": "Sind Sie sicher??",
+  "@common_confirm_message": {
+    "type": "text"
+  },
+  "common_detail": "Detail",
+  "@common_detail": {
+    "type": "text"
+  },
+  "common_edit": "Edit",
+  "@common_edit": {
+    "type": "text"
+  },
+  "common_delete": "Löschen",
+  "@common_delete": {
+    "type": "text"
+  },
+  "common_error": "Etwas ist schief gelaufen",
+  "@common_error": {
+    "type": "text"
+  },
+  "common_fetchError": "Leider konnten keine Daten zu dieser Anfrage gefunden werden...",
+  "@common_fetchError": {
+    "type": "text"
+  },
+  "common_field_date": "Datum",
+  "@common_field_date": {
+    "type": "text"
+  },
+  "common_field_mandatory": "Dieses Feld ist obligatorisch.",
+  "@common_field_mandatory": {
+    "type": "text"
+  },
+  "common_field_empty": "Bitte geben Sie einen Wert ein",
+  "@common_field_empty": {
+    "type": "text"
+  },
+  "common_field_time": "Zeit",
+  "@common_field_time": {
+    "type": "text"
+  },
+  "common_form_validation": "Einige Felder sind leer oder ungültig.",
+  "@common_form_validation": {
+    "type": "text"
+  },
+  "common_reset": "Löschen",
+  "@common_reset": {
+    "type": "text"
+  },
+  "common_refresh": "Aktualisieren",
+  "@common_refresh": {
+    "type": "text"
+  },
+  "common_save": "Speichern",
+  "@common_save": {
+    "type": "text"
+  },
+  "common_search": "Suche",
+  "@common_search": {
+    "type": "text"
+  },
+  "common_search_term": "Geben Sie einen Suchbegriff ein",
+  "@common_search_term": {
+    "type": "text"
+  },
+  "common_select": "Wähle",
+  "@common_select": {
+    "type": "text"
+  },
+  "common_submit": "Submit",
+  "@common_submit": {
+    "type": "text"
+  },
+  "common_was_success": "war erfolgreich",
+  "@common_was_success": {
+    "type": "text"
+  },
+  "common_upload": "Hochladen",
+  "@common_upload": {
+    "type": "text"
+  },
+  "common_upload_progress": "wird hochgeladen",
+  "@common_upload_progress": {
+    "type": "text"
+  },
+  "common_validate": "Bitte valides ID format eingeben",
+  "@common_validate": {
+    "type": "text"
+  },
+  "common_menu": "Menü Anzeigen / Schließen",
+  "@common_menu": {
+    "type": "text"
+  },
+  "forgot_password_text": "Forgot Password",
+  "@forgot_password_text": {
+    "type": "text"
+  },
+  "login_enter_your_email": "Enter your Email address for to reset \n the password",
+  "@login_enter_your_email": {
+    "type": "text"
+  },
+  "reset_password_button_text": "Reset password",
+  "@reset_password_button_text": {
+    "type": "text"
+  },
+  "login_now_button_text": "login now",
+  "@login_now_button_text": {
+    "type": "text"
+  },
+  "success_appbar_text": "Success",
+  "@success_appbar_text": {
+    "type": "text"
+  },
+  "password_reset_title_text": "Password updated",
+  "@password_reset_title_text": {
+    "type": "text"
+  },
+  "password_updated_text": "Your password has been updated. please \n login to continue using the app. ",
+  "@password_updated_text": {
+    "type": "text"
+  },
+  "common_go_back": "Zurück zum vorherigen Bildschirm",
+  "@common_go_back": {
+    "type": "text"
+  },
+  "common_unknown_user": "Unbekannter Benutzername",
+  "@story_detail_add_comment": {
+    "type": "text"
+  },
+  "common_success": "Success",
+  "@common_success": {
+    "type": "text"
+  },
+  "common_got_it": "GOT IT",
+  "@common_got_it": {
+    "type": "text"
+  },
+  "common_try_again": "TRY AGAIN",
+  "@common_try_again": {
+    "type": "text"
+  },
+  "common_no_internet": "No Internet",
+  "@common_no_internet": {
+    "type": "text"
+  },
+  "common_no_internet_description": "Just like a reliable ingredient, a stable internet connection is essential. Please check your internet connection and try again",
+  "@common_no_internet_description": {
+    "type": "text"
+  },
+  "home_screen_title": "Home",
+  "@home_screen_title": {
+    "type": "text"
+  },
+  "info_appNames": "Name Anwendung",
+  "@info_appNames": {
+    "type": "text"
+  },
+  "info_appVersion": "Software Version",
+  "@info_appVersion": {
+    "type": "text"
+  },
+  "info_buildNumber": "Build Nummer",
+  "@info_buildNumber": {
+    "type": "text"
+  },
+  "info_buildSignature": "Build Signatur",
+  "@info_buildSignature": {
+    "type": "text"
+  },
+  "info_infoName": "Über...",
+  "@info_infoName": {
+    "type": "text"
+  },
+  "info_notSet": "nicht bekannt",
+  "@info_notSet": {
+    "type": "text"
+  },
+  "info_packageName": "Paket Name",
+  "@info_packageName": {
+    "type": "text"
+  }
+}
