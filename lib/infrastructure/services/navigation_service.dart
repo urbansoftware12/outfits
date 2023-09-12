@@ -15,6 +15,7 @@ class Singleton {
 abstract class NavigationService {
   static const String splashRouteUri = '/';
   static const String loginRouteUri = 'login';
+  static const String homeRouteUri = 'home';
 
   void pushNamed({
     required BuildContext context,

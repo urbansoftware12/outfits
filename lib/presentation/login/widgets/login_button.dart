@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:outfits/application/login/login_bloc/login_bloc.dart';
-import 'package:outfits/domain/login/LoginRequest/login_request.dart';
+import 'package:outfits/domain/login/login_request/login_request.dart';
 import 'package:widgets_book/widgets_book.dart';
 
 class LoginButton extends StatelessWidget {
@@ -35,18 +35,18 @@ class LoginButton extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                  FocusScope.of(context).unfocus();
-                  if (formKey.currentState!.validate()) {
-                    LoginRequest loginRequest = LoginRequest(
-                      email: email.text.trim(),
-                      password: password.text,
-                    );
-                    context.read<LoginBloc>().add(
-                          LoginUser(
-                            loginRequest: loginRequest,
-                          ),
-                        );
-                  }
+                  // FocusScope.of(context).unfocus();
+                  // if (formKey.currentState!.validate()) {
+                  //   LoginRequest loginRequest = LoginRequest(
+                  //     email: email.text.trim(),
+                  //     password: password.text,
+                  //   );
+                  //   context.read<LoginBloc>().add(
+                  //         LoginUser(
+                  //           loginRequest: loginRequest,
+                  //         ),
+                  //       );
+                  // }
                 },
               );
       },

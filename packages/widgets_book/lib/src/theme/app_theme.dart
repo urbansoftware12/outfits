@@ -69,7 +69,7 @@ class AppTheme {
     );
   }
 
-  static Color get _backgroundColor => AppColors.white900;
+  static Color get _backgroundColor => AppColors.white;
 
   static AppBarTheme get _appBarTheme {
     return AppBarTheme(
@@ -77,8 +77,9 @@ class AppTheme {
       titleTextStyle: _textTheme.titleLarge,
       elevation: 0,
       toolbarHeight: 64,
-      backgroundColor: AppColors.white900,
+      backgroundColor: AppColors.white,
       systemOverlayStyle: const SystemUiOverlayStyle(
+        statusBarColor: AppColors.white,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
       ),

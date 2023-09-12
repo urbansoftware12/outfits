@@ -1,5 +1,5 @@
 import 'package:fpdart/fpdart.dart';
-import 'package:outfits/domain/login/LoginRequest/login_request.dart';
+import 'package:outfits/domain/login//login_request/login_request.dart';
 import 'package:widgets_book/widgets_book.dart';
 
 abstract class ILoginRepository {

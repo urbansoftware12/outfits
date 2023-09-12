@@ -30,6 +30,7 @@ abstract class AppColors {
 
   static const Color greyLight = Color(0xFFF9F9F9);
   static const Color grey400 = Color(0xFF979797);
+  static const Color grey300 = Color(0xFFF5f5f5);
 
   /// The grey primary color and swatch.
   static const Color textGrey = Color(0xFF909090);

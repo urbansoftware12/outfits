@@ -1,7 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:outfits/domain/login/i_login_repository.dart';
 import 'package:widgets_book/widgets_book.dart';
-import '../../domain/login/LoginRequest/login_request.dart';
+import '../../domain/login//login_request/login_request.dart';
 
 class LoginRepository implements ILoginRepository {
   LoginRepository(// {

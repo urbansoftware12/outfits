@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_book/widgets_book.dart';
 
-class BaseAppbarUser extends StatelessWidget {
-  const BaseAppbarUser({
+class BaseAppbar extends StatelessWidget {
+  const BaseAppbar({
     required this.title,
     this.onTapLeading,
     super.key,

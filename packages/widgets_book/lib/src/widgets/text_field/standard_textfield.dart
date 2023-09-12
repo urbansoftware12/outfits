@@ -51,6 +51,57 @@ class StandardTextField extends StatelessWidget {
     this.contentPadding,
   });
 
+  factory StandardTextField.outlined({
+    double? width,
+    Color? textFieldColor,
+    Color? borderColor,
+    Color? cursorColor,
+    String? hintText,
+    String? labelText,
+    TextStyle? hintStyle,
+    TextStyle? labelStyle,
+    TextEditingController? controller,
+    Widget? prefixWidget,
+    String? prefixText,
+    Widget? suffixWidget,
+    FocusNode? focusNode,
+    FormFieldValidator<String>? validator,
+    bool? validate,
+    bool? readOnly,
+    double? borderRadius,
+    Color? fillColor,
+    bool? filled,
+    double? errorHeight,
+    bool? disableSpacing,
+    AutovalidateMode? autoValidateMode,
+    EdgeInsetsGeometry? contentPadding,
+  }) =>
+      StandardTextField(
+        width: width,
+        textFieldColor: textFieldColor,
+        borderColor: borderColor,
+        cursorColor: cursorColor,
+        hintText: hintText,
+        labelText: labelText,
+        hintStyle: hintStyle,
+        labelStyle: labelStyle,
+        controller: controller,
+        prefixWidget: prefixWidget,
+        prefixText: prefixText,
+        suffixWidget: suffixWidget,
+        focusNode: focusNode,
+        validator: validator,
+        validate: validate,
+        readOnly: readOnly ?? false,
+        borderRadius: borderRadius ?? 25,
+        fillColor: fillColor ?? AppColors.grey300,
+        filled: filled ?? true,
+        errorHeight: errorHeight,
+        disableSpacing: disableSpacing??false,
+        autoValidateMode: autoValidateMode,
+        contentPadding: contentPadding,
+      );
+
   final double? width;
   final Color? textFieldColor;
   final Color? borderColor;
@@ -68,7 +119,6 @@ class StandardTextField extends StatelessWidget {
   final void Function(String? value)? onSaved;
   final void Function()? onTap;
   final void Function()? onEditingComplete;
-
   final bool showPrefixIcon;
   final bool showCounterText;
   final bool showSuffixIcon;
@@ -95,6 +145,7 @@ class StandardTextField extends StatelessWidget {
   final bool? disableSpacing;
   final AutovalidateMode? autoValidateMode;
   final EdgeInsetsGeometry? contentPadding;
+
   @override
   Widget build(BuildContext context) {
     return TextFormField(

@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:outfits/domain/login/LoginRequest/login_request.dart';
+import 'package:outfits/domain/login//login_request/login_request.dart';
 import 'package:outfits/domain/login/i_login_repository.dart';
 import 'package:widgets_book/src/helper/network/domain/api_error.dart';
 
