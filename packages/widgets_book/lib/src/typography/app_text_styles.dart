@@ -92,8 +92,8 @@ abstract class UITextStyle {
   /// Subtitle 2 Text Style
   static TextStyle get subtitle2 {
     return _baseTextStyle.copyWith(
-      fontSize: 14,
-      fontWeight: AppFontWeight.regular,
+      fontSize: 13,
+      fontWeight: AppFontWeight.semiBold,
       fontFamily: FontFamily.urbanist,
     );
   }
