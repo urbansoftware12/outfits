@@ -123,8 +123,8 @@ class AppTheme {
     bodyColor: AppColors.black,
     displayColor: AppColors.black,
     decorationColor: AppColors.black,
-    fontFamily: FontFamily.poppins,
-    fontFamilyFallback: [FontFamily.poppins,]
+    fontFamily: FontFamily.urbanist,
+    fontFamilyFallback: [FontFamily.urbanist,]
   );
 
   /// The UI text theme based on [UITextStyle].
@@ -312,7 +312,7 @@ class AppDarkTheme extends AppTheme {
       bodyColor: AppColors.white,
       displayColor: AppColors.white,
       decorationColor: AppColors.white,
-      fontFamily: FontFamily.poppins,
+      fontFamily: FontFamily.urbanist,
     );
   }
 

@@ -22,4 +22,19 @@ dev_dependencies:
 flutter:
   assets:
     - .env
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: packages/widgets_book/assets/fonts/Urbanist-Regular.ttf
+        - weight: 400
+        - asset: packages/widgets_book/assets/fonts/Urbanist-Light.ttf
+          weight: 300
+        - asset: packages/widgets_book/assets/fonts/Urbanist-Medium.ttf
+          weight: 500
+        - asset: packages/widgets_book/assets/fonts/Urbanist-Bold.ttf
+          weight: 700
+        - asset: packages/widgets_book/assets/fonts/Urbanist-ExtraBold.ttf
+          weight: 800
+        - asset: packages/widgets_book/assets/fonts/Urbanist-Black.ttf
+          weight: 900
   uses-material-design: true

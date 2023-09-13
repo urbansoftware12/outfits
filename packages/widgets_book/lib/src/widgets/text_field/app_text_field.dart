@@ -129,7 +129,7 @@ class AppTextField extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                   fontSize: 20,
                   color: AppColors.textBlack80,
-                  fontFamily: Assets.fonts.poppinsRegular,
+                  fontFamily: Assets.fonts.urbanistRegular,
                 ),
             onFieldSubmitted: onSubmitted,
             decoration: InputDecoration(

@@ -8,37 +8,26 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(90),
+        preferredSize: const Size.fromHeight(90),
         child: AppBar(
           leading: Padding(
             padding: const EdgeInsets.only(
               top: 10.0,
             ),
             child: StandardText.headline5(
-              'LOGO',
+              'L O G O',
             ),
           ),
-          leadingWidth: context.width * .2,
+          leadingWidth: context.width * .25,
           actions: [
             IconButton(
               onPressed: () {},
-              icon: Icon(
-                Icons.message,
-              ),
+              icon: Assets.icons.notification.svg(),
               iconSize: 20,
             ),
             IconButton(
               onPressed: () {},
-              icon: Icon(
-                Icons.message,
-              ),
-              iconSize: 20,
-            ),
-            IconButton(
-              onPressed: () {},
-              icon: Icon(
-                Icons.message,
-              ),
+              icon: Assets.icons.tracking.svg(),
               iconSize: 20,
             ),
           ],
@@ -50,6 +39,11 @@ class HomePage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical:6,horizontal: 12),
               child: StandardTextField.outlined(
                 hintText: 'Search for products',
+                suffixWidget: Assets.icons.search.svg(
+                  width: 15.h,
+                  height: 15.h,
+                  fit: BoxFit.scaleDown,
+                ),
               ),
             ),
           ),

@@ -178,7 +178,7 @@ abstract class AppColors {
   static const Color textfieldFill = Color(0xFFF3F2F2);
   static const Color accent = Color(0xFF771100);
   static const Color darkAccent = Color(0xFF3f0d0b);
-  static const Color textBlack = Color(0xFF000000);
+  static const Color textBlack = Color(0x99000000);
   static const Color textBlack80 = Color(0xFF010F07); //E7BCB9
   static const Color textBlack60 = Color(0xFF535353);
   static const Color black25 = Color(0x40000000);

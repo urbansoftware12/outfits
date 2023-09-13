@@ -17,7 +17,7 @@ abstract class UITextStyle {
   static const _baseTextStyle = TextStyle(
     package: 'widgets_book',
     fontWeight: AppFontWeight.regular,
-    fontFamily: FontFamily.poppins,
+    fontFamily: FontFamily.urbanist,
     decoration: TextDecoration.none,
     textBaseline: TextBaseline.alphabetic,
     color: AppColors.primary,
@@ -27,8 +27,8 @@ abstract class UITextStyle {
   static TextStyle get headline1 {
     return _baseTextStyle.copyWith(
       fontSize: 60,
-      fontFamily: FontFamily.poppins,
-      fontFamilyFallback: [FontFamily.poppins],
+      fontFamily: FontFamily.urbanist,
+      fontFamilyFallback: [FontFamily.urbanist],
       fontWeight: AppFontWeight.semiBold,
     );
   }
@@ -37,8 +37,8 @@ abstract class UITextStyle {
   static TextStyle get headline2 {
     return _baseTextStyle.copyWith(
       fontSize: 37,
-      fontFamily: FontFamily.poppins,
-      fontFamilyFallback: [FontFamily.poppins],
+      fontFamily: FontFamily.urbanist,
+      fontFamilyFallback: [FontFamily.urbanist],
       fontWeight: AppFontWeight.light,
     );
   }
@@ -47,8 +47,8 @@ abstract class UITextStyle {
   static TextStyle get headline3 {
     return _baseTextStyle.copyWith(
       fontSize: 34,
-      fontFamily: FontFamily.poppins,
-      // fontFamilyFallback: [FontFamily.poppins],
+      fontFamily: FontFamily.urbanist,
+      // fontFamilyFallback: [FontFamily.urbanist],
       fontWeight: AppFontWeight.light,
       letterSpacing: 0.22,
     );
@@ -58,8 +58,8 @@ abstract class UITextStyle {
   static TextStyle get headline4 {
     return _baseTextStyle.copyWith(
       fontSize: 30,
-      fontFamily: FontFamily.poppins,
-      fontFamilyFallback: [FontFamily.poppins],
+      fontFamily: FontFamily.urbanist,
+      fontFamilyFallback: [FontFamily.urbanist],
       fontWeight: AppFontWeight.light,
     );
   }
@@ -68,7 +68,7 @@ abstract class UITextStyle {
   static TextStyle get headline5 {
     return _baseTextStyle.copyWith(
       fontSize: 17,
-      fontWeight: AppFontWeight.medium,
+      fontWeight: AppFontWeight.black,
     );
   }
 
@@ -94,7 +94,7 @@ abstract class UITextStyle {
     return _baseTextStyle.copyWith(
       fontSize: 14,
       fontWeight: AppFontWeight.regular,
-      fontFamily: FontFamily.poppins,
+      fontFamily: FontFamily.urbanist,
     );
   }
 
@@ -118,7 +118,7 @@ abstract class UITextStyle {
     return _baseTextStyle.copyWith(
       fontSize: 12,
       fontWeight: AppFontWeight.regular,
-      fontFamily: FontFamily.poppins,
+      fontFamily: FontFamily.urbanist,
     );
   }
 

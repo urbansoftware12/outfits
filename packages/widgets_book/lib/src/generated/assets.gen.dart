@@ -14,33 +14,48 @@ import 'package:flutter/services.dart';
 class $AssetsFontsGen {
   const $AssetsFontsGen();
 
-  /// File path: assets/fonts/Poppins-Bold.ttf
-  String get poppinsBold =>
-      'packages/widgets_book/assets/fonts/Poppins-Bold.ttf';
+  /// File path: assets/fonts/Urbanist-Black.ttf
+  String get urbanistBlack =>
+      'packages/widgets_book/assets/fonts/Urbanist-Black.ttf';
 
-  /// File path: assets/fonts/Poppins-Light.ttf
-  String get poppinsLight =>
-      'packages/widgets_book/assets/fonts/Poppins-Light.ttf';
+  /// File path: assets/fonts/Urbanist-Bold.ttf
+  String get urbanistBold =>
+      'packages/widgets_book/assets/fonts/Urbanist-Bold.ttf';
 
-  /// File path: assets/fonts/Poppins-Medium.ttf
-  String get poppinsMedium =>
-      'packages/widgets_book/assets/fonts/Poppins-Medium.ttf';
+  /// File path: assets/fonts/Urbanist-ExtraBold.ttf
+  String get urbanistExtraBold =>
+      'packages/widgets_book/assets/fonts/Urbanist-ExtraBold.ttf';
 
-  /// File path: assets/fonts/Poppins-Regular.ttf
-  String get poppinsRegular =>
-      'packages/widgets_book/assets/fonts/Poppins-Regular.ttf';
+  /// File path: assets/fonts/Urbanist-ExtraLight.ttf
+  String get urbanistExtraLight =>
+      'packages/widgets_book/assets/fonts/Urbanist-ExtraLight.ttf';
 
-  /// File path: assets/fonts/Poppins-SemiBold.ttf
-  String get poppinsSemiBold =>
-      'packages/widgets_book/assets/fonts/Poppins-SemiBold.ttf';
+  /// File path: assets/fonts/Urbanist-Light.ttf
+  String get urbanistLight =>
+      'packages/widgets_book/assets/fonts/Urbanist-Light.ttf';
+
+  /// File path: assets/fonts/Urbanist-Medium.ttf
+  String get urbanistMedium =>
+      'packages/widgets_book/assets/fonts/Urbanist-Medium.ttf';
+
+  /// File path: assets/fonts/Urbanist-Regular.ttf
+  String get urbanistRegular =>
+      'packages/widgets_book/assets/fonts/Urbanist-Regular.ttf';
+
+  /// File path: assets/fonts/Urbanist-Thin.ttf
+  String get urbanistThin =>
+      'packages/widgets_book/assets/fonts/Urbanist-Thin.ttf';
 
   /// List of all assets
   List<String> get values => [
-        poppinsBold,
-        poppinsLight,
-        poppinsMedium,
-        poppinsRegular,
-        poppinsSemiBold
+        urbanistBlack,
+        urbanistBold,
+        urbanistExtraBold,
+        urbanistExtraLight,
+        urbanistLight,
+        urbanistMedium,
+        urbanistRegular,
+        urbanistThin
       ];
 }
 
@@ -77,6 +92,16 @@ class $AssetsIconsGen {
   SvgGenImage get noInternet =>
       const SvgGenImage('assets/icons/no_internet.svg');
 
+  /// File path: assets/icons/notification.svg
+  SvgGenImage get notification =>
+      const SvgGenImage('assets/icons/notification.svg');
+
+  /// File path: assets/icons/search.svg
+  SvgGenImage get search => const SvgGenImage('assets/icons/search.svg');
+
+  /// File path: assets/icons/tracking.svg
+  SvgGenImage get tracking => const SvgGenImage('assets/icons/tracking.svg');
+
   /// File path: assets/icons/twitter.svg
   SvgGenImage get twitter => const SvgGenImage('assets/icons/twitter.svg');
 
@@ -91,6 +116,9 @@ class $AssetsIconsGen {
         icAdd,
         icCollapse,
         noInternet,
+        notification,
+        search,
+        tracking,
         twitter
       ];
 }

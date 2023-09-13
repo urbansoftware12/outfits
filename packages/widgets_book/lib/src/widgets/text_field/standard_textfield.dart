@@ -155,6 +155,9 @@ class StandardTextField extends StatelessWidget {
       obscureText: obscureText,
       enableSuggestions: enableSuggestions,
       autocorrect: autoCorrect,
+      style: UITextStyle.bodyText2.copyWith(
+        fontSize: 13.sp,
+      ),
       decoration: InputDecoration(
         fillColor: fillColor,
         hoverColor: AppColors.transparent,
@@ -168,9 +171,11 @@ class StandardTextField extends StatelessWidget {
           fontSize: 12,
         ),
         hintText: hintText,
-
         labelText: labelText,
-        hintStyle: hintStyle,
+        hintStyle: hintStyle??UITextStyle.bodyText2.copyWith(
+          fontSize: 13.sp,
+          color: AppColors.textBlack,
+        ),
         border: inputBorder ??
             UnderlineInputBorder(
               borderSide: const BorderSide(
@@ -215,7 +220,7 @@ class StandardTextField extends StatelessWidget {
             ),
         contentPadding: contentPadding ??
             const EdgeInsets.symmetric(
-              vertical: 15,
+              vertical: 12,
               horizontal: 12,
             ),
         // labelStyle: BlackBullTextStyle.bodyText2.copyWith(
