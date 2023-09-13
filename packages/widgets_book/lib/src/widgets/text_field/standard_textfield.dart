@@ -220,7 +220,7 @@ class StandardTextField extends StatelessWidget {
             ),
         contentPadding: contentPadding ??
             const EdgeInsets.symmetric(
-              vertical: 12,
+              vertical: 15,
               horizontal: 12,
             ),
         // labelStyle: BlackBullTextStyle.bodyText2.copyWith(
