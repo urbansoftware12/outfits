@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 abstract class AppColors {
   /// Black
   static const Color black = Color(0xFF000000);
+  static const Color dullBlack = Color(0x80000000);
 
   /// Light black
   static const Color lightBlack = Colors.black54;
@@ -116,7 +117,7 @@ abstract class AppColors {
   static const Color darkText1 = Color(0xFFFCFCFC);
 
   /// The red wine color.
-  static const Color redWine = Color(0xFF9A031E);
+  static const Color redWine = Color(0xFFF1425A);
 
   /// The rangoonGreen color.
   static const Color rangoonGreen = Color(0xFF1B1B1B);
@@ -171,7 +172,7 @@ abstract class AppColors {
 
   /// The orange color.
   static const Color orange = Color(0xFFFB8B24);
-  static const Color primary = textBlack;
+  static const Color primary = black;
   // Rose
   static const Color rose = Color(0xFFE7BCB9);
   static const Color textfieldBorder = Color(0xFFE7BCB9);

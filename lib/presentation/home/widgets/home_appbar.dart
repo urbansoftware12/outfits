@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_book/widgets_book.dart';
 
-class HomeAppBar extends StatelessWidget {
-  const HomeAppBar({Key? key}) : super(key: key);
+class HomeSliverAppBar extends StatelessWidget {
+  const HomeSliverAppBar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
+    return SliverAppBar(
       leading: Padding(
         padding: const EdgeInsets.only(
           top: 10.0,
@@ -30,6 +30,7 @@ class HomeAppBar extends StatelessWidget {
       ],
       elevation: 1,
       shadowColor: AppColors.grey300,
+      pinned: false,
       bottom: PreferredSize(
         preferredSize: const Size.fromHeight(75),
         child: Container(

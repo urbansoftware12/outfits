@@ -47,8 +47,6 @@ abstract class UITextStyle {
   static TextStyle get headline3 {
     return _baseTextStyle.copyWith(
       fontSize: 34,
-      fontFamily: FontFamily.urbanist,
-      // fontFamilyFallback: [FontFamily.urbanist],
       fontWeight: AppFontWeight.light,
       letterSpacing: 0.22,
     );
@@ -57,18 +55,16 @@ abstract class UITextStyle {
   /// Headline 4 Text Style
   static TextStyle get headline4 {
     return _baseTextStyle.copyWith(
-      fontSize: 30,
-      fontFamily: FontFamily.urbanist,
-      fontFamilyFallback: [FontFamily.urbanist],
-      fontWeight: AppFontWeight.light,
+      fontSize: 18,
+      fontWeight: AppFontWeight.semiBold,
     );
   }
 
   /// Headline 5 Text Style
   static TextStyle get headline5 {
     return _baseTextStyle.copyWith(
-      fontSize: 17,
-      fontWeight: AppFontWeight.black,
+      fontSize: 16,
+      fontWeight: AppFontWeight.semiBold,
     );
   }
 
@@ -101,7 +97,7 @@ abstract class UITextStyle {
   static TextStyle get subtitle3 {
     return _baseTextStyle.copyWith(
       fontSize: 12,
-      fontWeight: AppFontWeight.regular,
+      fontWeight: AppFontWeight.medium,
     );
   }
 
